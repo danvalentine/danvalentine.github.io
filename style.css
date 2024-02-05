@@ -17,3 +17,19 @@ b {
   font-size: 20px;
   color: purple;
 }
+
+
+
+img{
+  width: 300px;
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
